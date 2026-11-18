@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tensae Deli &amp; Bakery</title>
+  <meta name="description" content="Specialty cakes, fresh pastries and handcrafted coffee from Tensae Deli & Bakery. Order online for pickup or from your table, and pay at the cashier." />
+  <meta name="theme-color" content="#0f2a4a" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230f2a4a'/%3E%3Crect x='15' y='31' width='34' height='13' rx='3' fill='%23fff'/%3E%3Crect x='21' y='21' width='22' height='10' rx='2.5' fill='%23fff'/%3E%3Crect x='31' y='12' width='2' height='9' rx='1' fill='%23f2c84b'/%3E%3Cpath d='M8 54l4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3' stroke='%23f2c84b' stroke-width='2.4' fill='none'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div style="background:#0f2a4a;color:#f2c84b;text-align:center;font:700 13px/1.4 'Nunito Sans',sans-serif;padding:7px 12px">
+    Preview of the Tensae Deli &amp; Bakery website · orders placed here are only a demo and are not sent to the bakery
+  </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="tilet" aria-hidden="true"></div>
+    <div class="header__inner">
+      <a class="logo" href="#/" aria-label="Tensae Deli and Bakery, home">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="16" fill="#0f2a4a"/>
+          <rect x="13" y="44" width="38" height="2.6" rx="1.3" fill="#fff"/>
+          <rect x="16" y="31" width="32" height="12" rx="3" fill="#fff"/>
+          <path d="M16 35.5q4 3 8 0t8 0 8 0 8 0" stroke="#1f5fae" stroke-width="1.6" fill="none"/>
+          <rect x="21.5" y="22" width="21" height="9" rx="2.5" fill="#fff"/>
+          <rect x="31" y="14" width="2" height="8" rx="1" fill="#f2c84b"/>
+          <path d="M32 7.5q2.6 3 0 5.2q-2.6-2.2 0-5.2z" fill="#f2c84b"/>
+          <path d="M8 55l4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3" stroke="#f2c84b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo__word">Tensae<small>Deli &amp; Bakery</small></span>
+      </a>
+      <span class="bo-badge staff-only" data-role-badge>Back office</span>
+      <nav class="nav" aria-label="Main">
+        <a class="nav__link" data-nav="menu" href="#/menu">Tensae Menu</a>
+        <a class="nav__link" data-nav="cakes" href="#/menu/cakes">Tensae Cakes</a>
+        <a class="nav__link" data-nav="coffee" href="#/coffee">Our Story</a>
+      </nav>
+      <div class="header__right">
+        <button class="find-store" data-open-visit>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-7 7c0 5.25 7 12 7 12s7-6.75 7-12a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
+          <span>Find us</span>
+        </button>
+        <button class="table-chip" data-table-chip data-open-mode hidden aria-label="Change table">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 10h19M5 10v10M19 10v10M5 15h14"/><path d="M9.5 4.5h5l-.6 5.5h-3.8z"/></svg>
+          Table <b></b>
+        </button>
+        <a class="btn btn--primary header__cta" href="#/menu">Order now</a>
+        <a class="btn btn--outline staff-only" href="#/">View customer site</a>
+        <a class="bag-link" href="#/cart" aria-label="View your order" data-bag-link>
+          <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M9 10V9a7 7 0 0 1 14 0v1h4l-1.6 17.2A2 2 0 0 1 23.4 29H8.6a2 2 0 0 1-2-1.8L5 10h4Zm2 0h10V9a5 5 0 0 0-10 0v1Z"/></svg>
+          <span class="bag-count" data-bag-count>0</span>
+        </a>
+        <button class="burger" aria-label="Open menu" aria-expanded="false" data-burger>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="drawer" data-drawer>
+    <a class="drawer__link" href="#/menu">Tensae Menu</a>
+    <a class="drawer__link" href="#/menu/cakes">Tensae Cakes</a>
+    <a class="drawer__link" href="#/coffee">Our Story</a>
+    <a class="drawer__link" href="#/cart">Your order</a>
+    <hr />
+    <button class="find-store" data-open-mode>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 10h19M5 10v10M19 10v10M5 15h14"/><path d="M9.5 4.5h5l-.6 5.5h-3.8z"/></svg>
+      Pickup or table
+    </button>
+    <button class="find-store" data-open-visit style="margin-top:18px">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-7 7c0 5.25 7 12 7 12s7-6.75 7-12a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
+      Find us
+    </button>
+    <a class="btn btn--primary btn--lg btn--block" href="#/menu" style="margin-top:28px">Order now</a>
+  </div>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="tilet" aria-hidden="true"></div>
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="logo__word">Tensae<small>Deli &amp; Bakery</small></span>
+          <p>Specialty cakes, fresh pastries and handcrafted coffee. Order online and pay at the cashier.</p>
+          <div class="social" data-social></div>
+        </div>
+        <div><h4>Visit</h4><ul data-footer-visit></ul></div>
+        <div><h4>Tensae Menu</h4><ul>
+          <li><a href="#/menu/hot-coffee">Hot Coffees &amp; Espresso</a></li>
+          <li><a href="#/menu/cold-coffee">Cold Coffees &amp; Iced Drinks</a></li>
+          <li><a href="#/menu/cakes">Specialty Cakes &amp; Desserts</a></li>
+          <li><a href="#/menu/breakfast">Breakfast &amp; Bakery Bites</a></li></ul></div>
+        <div><h4>Help</h4><ul>
+          <li><button class="footer__link" data-open-mode>Order from your table</button></li>
+          <li><a href="#/allergens">Allergen information</a></li>
+          <li><a href="#/cart">Your order</a></li>
+          <li><a href="#/staff">Staff sign in</a></li></ul></div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Tensae Deli &amp; Bakery. All rights reserved.</p>
+        <nav class="legal" aria-label="Legal">
+          <a href="#/privacy">Privacy Policy</a><a href="#/terms">Terms of Use</a><a href="#/accessibility">Accessibility</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-wrap" data-modal hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal__head">
+        <h2 id="modal-title">How are you ordering?</h2>
+        <button class="close-btn" data-close-modal aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="modal__body" data-modal-body></div>
+    </div>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+  <script src="js/catalog.js"></script>
+  <script src="js/art.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
